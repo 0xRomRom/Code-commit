@@ -295,3 +295,39 @@
 
 ///////////////////////////////////////////////////////////////////
 
+// const listOfNeighbours = [
+//     ['Canada', 'Mexico'],
+//      ['Spain'],
+//       ['Norway', 'Sweden', 'Russia']];
+
+
+// for (let i = 0; i < listOfNeighbours.length; i++) ;
+//    for (let y = 0; y < listOfNeighbours[i].length; y++);
+//    console.log(`Neighbour: ${listOfNeighbours[i] [y]}`);
+
+
+
+
+// const jonas = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037-1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+// ];
+
+// for( let i = jonas.length - 1; i >= 0; i--) {
+//     console.log(i, jonas[i]);
+// }
+
+
+// for (let exercise = 1; exercise < 4 ; exercise++) {
+//     console.log(`---------- Starting exercise ${exercise}`);
+
+//     for(let rep = 1; rep < 11; rep++) {
+//         console.log(`Lifting weight repetition ${rep}`);
+//     }
+// }
+
+
+////////////////////////////////////////////////////////////////////////
