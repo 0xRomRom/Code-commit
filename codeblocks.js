@@ -295,5 +295,57 @@
 
 ///////////////////////////////////////////////////////////////////
 
-//I'ma keep adding to this logg
+///////////////////////////////////////////////////////////////////
 
+//Object with literal template 
+
+// const myCountry = {
+//     country: 'Netherlands',
+//     capital: 'Amsterdam',
+//     language: 'Dutch',
+//     population: '17 Million',
+//     neighbours: ['Germany', 'Belgium', 'France']
+// };
+
+// console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}`);
+
+
+/////////////////////////////////////////////////////////////////////
+
+//BMI calculation using methods in objects
+
+// const mark = {
+//     firstName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function() {
+//       this.bmi = this.mass / this.height ** 2;
+//       return this.bmi;
+//     }
+// };
+
+
+// const john = {
+//     firstName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function() {
+//         this.bmi = this.mass / this.height ** 2;
+//         return this.bmi;
+//     }
+// };
+
+// mark.calcBMI();
+// john.calcBMI();
+// console.log(`Hello ${mark.bmi}, what's good ${john.bmi}`);
+
+////////////////////////////////////////////////////////////////////////
+
+//For loop
+
+
+// for( let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep}`);
+// }
+
+/////////////////////////////////////////////////////////////////////////
