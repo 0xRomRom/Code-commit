@@ -345,3 +345,15 @@
 // }
 
 ////////////////////////////////////////////////////////////////////////
+
+// const language = "English";
+// const country = "The Netherlands";
+// const continent = "Europe";
+// const population = 10;
+// const isIsland = false;
+
+// if (language === "English" && population < 50 && isIsland === false) {
+//   console.log("You should live in The Netherlands!");
+// } else console.log("The Netherlands does not meet your criteria :(");
+
+///////////////////////////////////////////////////////////////////////
