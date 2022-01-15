@@ -1,3 +1,8 @@
+"use strict";
+
+//Hello there reader. This log is basically a repository for my practice exercises.
+//Its self written code from all kinds of exercises.
+
 // const hasDriversLicense = true; // A
 // const hasGoodVision = true; // B
 
@@ -317,3 +322,26 @@
 // console.log(result);
 
 /////////////////////////////////////////////////////////////////////////
+
+// const language = "Dutch";
+// const country = "The Netherlands";
+// const continent = "Europe";
+// const population = 10;
+// const isIsland = true;
+
+// let newPopulation = population / 2;
+// newPopulation++;
+// console.log(newPopulation);
+// console.log(population > 6);
+// console.log(population < 33);
+
+// const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+// console.log(description);
+
+// if (population > 33) {
+//   console.log("The Netherlands's population is above average");
+// } else {
+//   console.log("The Netherlands's population is below average");
+// }
+
+////////////////////////////////////////////////////////////////////////
