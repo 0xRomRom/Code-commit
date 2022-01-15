@@ -5,7 +5,6 @@
 // console.log(hasDriversLicense || hasGoodVision);
 // console.log(!hasDriversLicense);
 
-
 // if(hasDriversLicense && hasGoodVision) {
 //     console.log('Allowed to drive!');
 // } else {
@@ -15,7 +14,6 @@
 // const isTired = false; // C
 // console.log(hasDriversLicense || hasGoodVision || isTired);
 
-
 // if(hasDriversLicense && hasGoodVision && !isTired) {
 //     console.log('Allowed to drive!');
 // } else {
@@ -23,7 +21,6 @@
 // }
 
 /////////////////////////////////////
-
 
 // const scoreDolphins = (97 + 112 + 81) / 3;
 // const scoreKoalas = (109 + 95 + 86) / 3;
@@ -38,7 +35,6 @@
 // } else {
 //     console.log('Nobody wins');
 // }
-
 
 ///////////////////////////////////////////
 
@@ -71,7 +67,6 @@
 //         console.log('Not a valid day!');
 // }
 
-
 // if(day === 'monday') {
 //     console.log('Plan course structure');
 //     console.log('Go to coding meeting');
@@ -89,9 +84,8 @@
 
 ////////////////////////////////////////////////
 
-
 // const age = 18;
-// age >= 18 ? console.log('I like to drink wine') : 
+// age >= 18 ? console.log('I like to drink wine') :
 // console.log('I like to drink water');
 
 // const drink = age >= 18 ? 'Wine' : 'Water';
@@ -108,14 +102,10 @@
 
 // console.log(`I like to drink ${age >= 18 ? 'Wine' : 'Water'}`);
 
-
-
 //////////////////////////////////////////////////////
 
 // const population =  33;
 // population >= 33 ? console.log("Portugal's population is above average") : console.log("Portugal's population is below average");
-
-
 
 ///////////////////////////////////////////////////////
 
@@ -127,7 +117,6 @@
 
 ///////////////////////////////////////////////////////
 
-
 //Function basics
 
 // function logger() {
@@ -135,7 +124,6 @@
 // }
 // // calling / running / invoking function
 // logger();
-
 
 // function fruitProcessor(apples, oranges) {
 //     const juice = `juice with ${apples} apples and ${oranges} oranges. `;
@@ -148,7 +136,6 @@
 // const appleOrangeJuice = fruitProcessor(2, 4);
 // console.log(appleOrangeJuice);
 
-
 /////////////////////////////////////////////////////////
 
 // //Function declaration
@@ -158,7 +145,6 @@
 
 // const age1 = calcAge1(1991);
 // console.log(age1);
-
 
 // //Function expression
 // const calcAge2 = function (birthYear) {
@@ -208,7 +194,6 @@
 
 // // //Calculate population percentage per country
 
-
 // //Function declaration (delete 2's to enable)
 
 // function percentageOfWorld2 (population2) {
@@ -219,7 +204,6 @@
 // const percentageOfWorld1 = function (population) {
 //     return (population / 7900) * 100;
 // }
-
 
 // const percentageNetherlands = percentageOfWorld1(500);
 // const percentageGermany = percentageOfWorld1(300);
@@ -238,7 +222,6 @@
 ///////////////////////////////////////////////////////////////
 
 // //Function inside a function
-
 
 // function cutFruitPieces(fruit) {
 // return fruit * 4;
@@ -272,14 +255,11 @@
 
 //////////////////////////////////////////////////////////////////
 
-
 // const calcAverage = (a, b, c) => (a + b+ c) / 3;\
 // const avgDolphins = calcAverage(44, 23, 71);
 // const avgKoalas = calcAverage(65, 54, 49);
 
-
 // console.log(avgDolphins, avgKoalas);
-
 
 // const checkWinner = function(avgDolphins, avgKoalas) {
 //     if (avgDolphins >= 2 * avgKoalas) {
@@ -300,13 +280,9 @@
 //      ['Spain'],
 //       ['Norway', 'Sweden', 'Russia']];
 
-
 // for (let i = 0; i < listOfNeighbours.length; i++) ;
 //    for (let y = 0; y < listOfNeighbours[i].length; y++);
 //    console.log(`Neighbour: ${listOfNeighbours[i] [y]}`);
-
-
-
 
 // const jonas = [
 //     'Jonas',
@@ -320,7 +296,6 @@
 //     console.log(i, jonas[i]);
 // }
 
-
 // for (let exercise = 1; exercise < 4 ; exercise++) {
 //     console.log(`---------- Starting exercise ${exercise}`);
 
@@ -329,5 +304,16 @@
 //     }
 // }
 
-
 ////////////////////////////////////////////////////////////////////////
+
+//Rom's birthyear-to-age calculator
+// const calcAge = function (birthYear) {
+//   return 2021 - birthYear;
+// };
+
+// const calcAge = (birthYear) => 2021 - birthYear;
+
+// const result = calcAge(1992);
+// console.log(result);
+
+/////////////////////////////////////////////////////////////////////////
