@@ -356,4 +356,8 @@
 //   console.log("You should live in The Netherlands!");
 // } else console.log("The Netherlands does not meet your criteria :(");
 
+// console.log(
+//     `${country}'s population is ${population > 33 ? "above" : "below"} average`
+//   );
+
 ///////////////////////////////////////////////////////////////////////
