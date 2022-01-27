@@ -904,3 +904,73 @@
 // console.log(letters.join(' - '));
 
 /////////////////////////////////////////////////////////////////////////
+
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+// for (const [i, movement] of movements.entries()) {
+//   if (movement > 0) {
+//     console.log(`Movement ${i + 1}: You deposited ${movement}`);
+//   } else {
+//     console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
+//   }
+// }
+// console.log('---FOREACH---');
+// movements.forEach(function (mov, i, arr) {
+//   if (mov > 0) {
+//     console.log(`Movement ${i + 1}: You deposited ${mov}`);
+//   } else {
+//     console.log(`Movement ${i + 1}: You withdrew ${Math.abs(mov)}`);
+//   }
+// });
+
+// // 0: function(200)
+// // 1: function(450)
+// // 2: function(400)
+// // ...
+
+///////////////////////////////////////////////////////////////////////////
+
+// // Map
+// const currencies = new Map([
+//     ['USD', 'United States dollar'],
+//     ['EUR', 'Euro'],
+//     ['GBP', 'Pound sterling'],
+//   ]);
+
+//   currencies.forEach(function (value, key, map) {
+//     console.log(`${key}: ${value}`);
+//   });
+
+//   // Set
+
+//   const currenciesUnique = new Set(['USD', 'GBP', 'USD', 'EUR', 'EUR']);
+//   console.log(currenciesUnique);
+
+//   currenciesUnique.forEach(function (value, key, map) {
+//     console.log(`${key}: ${value}`);
+//   });
+
+//////////////////////////////////////////////////////////////////////////
+
+// const checkDogs = function (dogsJulia, dogsKate) {
+//     const dogsJuliaCorrected = dogsJulia.slice();
+
+//     dogsJuliaCorrected.splice(0, 1);
+//     dogsJuliaCorrected.splice(-2);
+
+//     const dogs = dogsJuliaCorrected.concat(dogsKate);
+//     console.log(dogs);
+
+//     dogs.forEach(function (dog, i) {
+//       if (dog >= 3) {
+//         console.log(`Dog number ${i + 1} is an adult, and is ${dog} years old`);
+//       } else {
+//         console.log(`Dog number ${i + 1} is still a puppy 🐶`);
+//       }
+//     });
+//   };
+
+//   checkDogs([4, 1, 15, 8, 3], [3, 5, 2, 12, 7]);
+//   checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
+
+////////////////////////////////////////////////////////////////////////
