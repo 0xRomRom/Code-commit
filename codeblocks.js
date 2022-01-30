@@ -1075,3 +1075,28 @@
 // console.log(movements.filter(deposit));
 
 //////////////////////////////////////////////////////////////////////
+
+// console.log(23 === 23.0);
+
+// // Base 10 -   0  to 9
+// // Binary base 2  - 0 1
+// console.log(0.1 + 0.2);
+
+// // Conversion
+// console.log(Number('23'));
+// console.log(+'23');
+
+// // Parsing
+// console.log(Number.parseInt('30px', 10));
+
+// console.log(Number.parseFloat('2.5rem'));
+
+// console.log(Number.isNaN(20));
+// console.log(Number.isNaN('20'));
+
+// // Checking if value is number
+// console.log(Number.isFinite(20));
+// console.log(Number.isFinite('20'));
+// console.log(Number.isFinite('20X'));
+
+//////////////////////////////////////////////////////////////////////
